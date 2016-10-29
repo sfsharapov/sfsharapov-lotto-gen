@@ -8,7 +8,7 @@ function generate() {
       numbers.push(number);
     }
   }
-  return numbers;
+  return numbers.sort((a,b) => {return a-b});
 }
 
 /*check a duplicated number in array*/
